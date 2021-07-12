@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+@import url(../css/icons/font-awesome/css/fontawesome-all.css);
+@import url(../css/icons/simple-line-icons/css/simple-line-icons.css);
+@import url(../css/icons/weather-icons/css/weather-icons.min.css);
+@import url(../css/icons/linea-icons/linea.css);
+@import url(../css/icons/themify-icons/themify-icons.css);
+@import url(../css/icons/flag-icon-css/flag-icon.min.css);
+@import url(../css/icons/material-design-iconic-font/css/materialdesignicons.min.css);
+
+
+html body .p-0 {
+	padding: 0px
+}
+
+html body .p-10 {
+	padding: 10px
+}
+
+html body .p-20 {
+	padding: 20px
+}
+
+html body .p-30 {
+	padding: 30px
+}
+
+html body .p-l-0 {
+	padding-left: 0px
+}
+
+html body .p-l-10 {
+	padding-left: 10px
+}
+
+html body .p-l-20 {
+	padding-left: 20px
+}
+
+html body .p-r-0 {
+	padding-right: 0px
+}
+
+html body .p-r-10 {
+	padding-right: 10px
+}
+
+html body .p-r-20 {
+	padding-right: 20px
+}
+
+html body .p-r-30 {
+	padding-right: 30px
+}
+
+html body .p-r-40 {
+	padding-right: 40px
+}
+
+html body .p-t-0 {
+	padding-top: 0px
+}
+
+html body .p-t-10 {
+	padding-top: 10px
+}
+
+html body .p-t-20 {
+	padding-top: 20px
+}
+
+html body .p-t-30 {
+	padding-top: 30px
+}
+
+html body .p-b-0 {
+	padding-bottom: 0px
+}
+
+html body .p-b-5 {
+	padding-bottom: 5px
+}
+
+html body .p-b-10 {
+	padding-bottom: 10px
+}
+
+html body .p-b-20 {
+	padding-bottom: 20px
+}
+
+html body .p-b-30 {
+	padding-bottom: 30px
+}
+
+html body .p-b-40 {
+	padding-bottom: 40px
+}
+
+html body .m-0 {
+	margin: 0px
+}
+
+html body .m-l-5 {
+	margin-left: 5px
+}
+
+html body .m-l-10 {
+	margin-left: 10px
+}
+
+html body .m-l-15 {
+	margin-left: 15px
+}
+
+html body .m-l-20 {
+	margin-left: 20px
+}
+
+html body .m-l-30 {
+	margin-left: 30px
+}
+
+html body .m-l-40 {
+	margin-left: 40px
+}
+
+html body .m-r-5 {
+	margin-right: 5px
+}
+
+html body .m-r-10 {
+	margin-right: 10px
+}
+
+html body .m-r-15 {
+	margin-right: 15px
+}
+
+html body .m-r-20 {
+	margin-right: 20px
+}
+
+html body .m-r-30 {
+	margin-right: 30px
+}
+
+html body .m-r-40 {
+	margin-right: 40px
+}
+
+html body .m-t-0 {
+	margin-top: 0px
+}
+
+html body .m-t-5 {
+	margin-top: 5px
+}
+
+html body .m-t-10 {
+	margin-top: 10px
+}
+
+html body .m-t-15 {
+	margin-top: 15px
+}
+
+html body .m-t-20 {
+	margin-top: 20px
+}
+
+html body .m-t-30 {
+	margin-top: 30px
+}
+
+html body .m-t-40 {
+	margin-top: 40px
+}
+
+html body .m-b-0 {
+	margin-bottom: 0px
+}
+
+html body .m-b-5 {
+	margin-bottom: 5px
+}
+
+html body .m-b-10 {
+	margin-bottom: 10px
+}
+
+html body .m-b-15 {
+	margin-bottom: 15px
+}
+
+html body .m-b-20 {
+	margin-bottom: 20px
+}
+
+html body .m-b-30 {
+	margin-bottom: 30px
+}
+
+html body .m-b-40 {
+	margin-bottom: 40px
+}
+
+html body .vt {
+	vertical-align: top
+}
+
+html body .vm {
+	vertical-align: middle
+}
+
+html body .vb {
+	vertical-align: bottom
+}
+
+.op-3 {
+	opacity: 0.3
+}
+
+.op-5 {
+	opacity: 0.5
+}
+
+html body .font-bold {
+	font-weight: 700
+}
+
+html body .font-normal {
+	font-weight: normal
+}
+
+html body .font-light {
+	font-weight: 300
+}
+
+html body .font-medium {
+	font-weight: 500
+}
+
+html body .font-16 {
+	font-size: 16px
+}
+
+html body .font-14 {
+	font-size: 14px
+}
+
+html body .font-10 {
+	font-size: 10px
+}
+
+html body .font-18 {
+	font-size: 18px
+}
+
+html body .font-20 {
+	font-size: 20px
+}
+
+html body .b-0 {
+	border: none !important;
+}
+
+html body .b-r {
+	border-right: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+html body .b-l {
+	border-left: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+html body .b-b {
+	border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+html body .b-t {
+	border-top: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+html body .b-all {
+	border: 1px solid rgba(120, 130, 140, 0.13) !important;
+}
+
+.hide {
+	display: none;
+}
+
+.img-circle {
+	border-radius: 100%;
+}
