@@ -11,6 +11,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/graduation-cap.png')}}">
 	<title>TT - @yield('pageTitle')</title>
 
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-4.6.0/css/bootstrap.min.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 	
