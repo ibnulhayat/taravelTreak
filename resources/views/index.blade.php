@@ -8,14 +8,24 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<!-- Favicon icon -->
-	<link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/graduation-cap.png')}}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/favicon-2.png')}}">
 	<title>TT - @yield('pageTitle')</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-4.6.0/css/bootstrap.min.css')}}">
+
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- toast CSS -->
+	<link href="{{asset('assets/plugins/toast-master/css/jquery.toast.css')}}" rel="stylesheet">
+	<!-- External CSS -->
 	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 	
+	<!-- all other page specific style here -->
+	@stack('styles')
 </head>
+
+
 <body>
 
 	<div class="container-flude mt-5 bg-dark">
@@ -58,8 +68,16 @@
 		</div>
 	</div>
 
+
+	<!-- Bootstrap JavaScript -->
 	<script src="{{asset('assets/plugins/bootstrap-4.6.0/js/bootstrap.min.js')}}"></script>
+	<!-- jQuery  -->
 	<script src="{{asset('assets/plugins/jQuery/jquery.min.js')}}"></script>
+	<!-- toastr -->
+	<script src="{{asset('assets/js/toastr.js')}}"></script>
+	<!-- Popup message jquery -->
+	<script src="{{asset('assets/plugins/toast-master/js/jquery.toast.js')}}"></script>
+	<script src="{{asset('assets/plugins/keyboardshortcut.js')}}"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
