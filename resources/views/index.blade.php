@@ -16,57 +16,86 @@
 
 	<!-- font-awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- line-awesome -->
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
 	<!-- toast CSS -->
 	<link href="{{asset('assets/plugins/toast-master/css/jquery.toast.css')}}" rel="stylesheet">
 	<!-- External CSS -->
 	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+	
+	<!-- custom -->
+	<link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
 	
 	<!-- all other page specific style here -->
 	@stack('styles')
 </head>
 
 
-<body>
-
-	<div class="container-flude mt-5 bg-dark">
-		<div class="card bg-light">
-			<div class="row ">
-				<div class="col-3 ">
-					<button type="button" class="btn btn-outline-success btn-md ">Large button</button>
-				</div>
-				<div class="col-3 ">
-					<h1 class="text-dark">Hello</h1>
-				</div>
-				<div class="col-3 ">
-					<h1 class="text-dark">Hello</h1>
-				</div>
-				<div class="col-3 ">
-					<h1 class="text-dark">Hello</h1>
-				</div>	
-			</div>
+<body >
+	<div class="sidebar">
+		<div class="sidebar-brand">
+			<h2><span class="">Taravel Treak</span></h2>
+		</div>
+		<div class="sidebar-menu">
+			<ul class="navbar-nav">
+				<li >
+					<a href=""class="active" ><span class="las la-igloo"></span> <span>Dashboard</span></a>
+				</li>
+				<li>
+					<a href="" ><span class="las la-users"></span> <span>Users</span></a>
+				</li>
+				<li>
+					<a href="" ><span class="las la-clipboard-list"></span> <span>Projects</span></a>
+				</li>
+				<li>
+					<a href="" ><span class="las la-igloo"></span> <span>Accounts</span></a>
+				</li>
+			</ul>
 		</div>
 	</div>
 
-	<div class="container-flude m-t-40 bg-dark">
-		<div class="card bg-light">
-			<div class="row ">
-				<div class="col-3 ">
-					<button type="button" class="btn btn-outline-success btn-md ">Large button</button>
-				</div>
-				<div class="col-3 ">
-					<h1 class="text-dark">Hello</h1>
-				</div>
-				<div class="col-3 ">
-					<h1 class="text-dark">Hello</h1>
-				</div>
-				<div class="col-3 ">
-					<input type="text" id="name" >
-					<h1 id="submit" type="button" class="text-dark">Hello</h1>
-
-				</div>	
+	<div class="main-content">
+		<header>
+			<h2>
+				<label >
+					<span class="las la-bars">	</span>
+				</label>
+				Dashboard
+			</h2>
+			<div class="search-wrapper">
+				<span class="las la-search"></span>
+				<input type="search" placeholder="Search here"/>
 			</div>
-		</div>
+			<div class="user-wrapper">
+				<img src="assets/images/favicon-1.png" alt="" height="30px" width="30px">
+				<div>
+					<h4>Admin</h4>
+					<small>super admin</small>
+				</div>
+			</div>
+
+		</header>
+
+		<main>
+			<div class="cards">
+
+				<h1>hello</h1>
+				<h1>hello</h1>
+				<h1>hello</h1>
+				<h1>hello</h1>
+				<h1>hello</h1>
+				<h1>hello</h1>
+			</div>
+		</main>
 	</div>
+
+
+
+
+
+
 
 
 	<!-- Bootstrap JavaScript -->
